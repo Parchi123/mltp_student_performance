@@ -1,41 +1,76 @@
-# 📊 Student Performance Clustering Analysis
+ 🎓 Student Performance Analysis & Prediction using Machine Learning
 
 ## 📌 Project Overview
 
-This project applies Hierarchical Clustering (Agglomerative Clustering)
-to analyze student performance data. The goal is to group students based
-on their features and evaluate clustering quality.
+This project presents a comprehensive analysis of student performance
+data using data science and machine learning techniques. The primary aim
+is to understand how various factors---such as study habits, attendance,
+and other attributes---impact academic outcomes.
 
-## 📂 Dataset
+In addition to exploratory analysis, the project builds predictive
+models that can estimate student performance, helping educators and
+institutions make data-driven decisions to improve learning outcomes.
 
-The dataset contains: - Gender - Race/Ethnicity - Parental Level of
-Education - Lunch - Test Preparation Course - Math Score - Reading
-Score - Writing Score
+## 🎯 Problem Statement
 
-## ⚙️ Technologies Used
+Educational institutions often struggle to identify students who may
+need additional support. This project addresses the problem by: -
+Analyzing student data to detect performance patterns\
+- Predicting student outcomes based on input features\
+- Providing insights that can help improve academic success
 
--   Python
--   Pandas
--   NumPy
--   Matplotlib
--   Seaborn
--   Scikit-learn
+## 📊 Dataset Description
 
-## 🧠 Methodology
+The dataset contains structured student-related information such as: -
+Study Hours\
+- Attendance\
+- Scores/Grades\
+- Student-related behavioral or demographic factors
 
-1.  Data preprocessing (feature removal, scaling)
-2.  Dendrogram using Ward method
-3.  Agglomerative Clustering (k=3)
-4.  Visualization using scatter plots
-5.  Evaluation using silhouette score
+## 🔍 Exploratory Data Analysis (EDA)
 
-## 📈 Results
+-   Distribution of student scores\
+-   Relationship between study hours and performance\
+-   Impact of attendance on grades\
+-   Correlation heatmaps\
+-   Outlier detection
 
--   Data grouped into clusters
--   Clear visualization of cluster separation
--   Silhouette score used for validation
+## ⚙️ Data Preprocessing
 
-## 📌 Conclusion
+-   Handling missing values\
+-   Encoding categorical variables\
+-   Feature scaling\
+-   Train-test split
 
-Hierarchical clustering helps identify patterns in student data and
-evaluate grouping quality.# mltp_student_performance
+## 🤖 Machine Learning Models
+
+-   Linear Regression\
+-   Decision Tree\
+-   Random Forest\
+-   K-Nearest Neighbors (KNN)
+
+## 📈 Model Evaluation
+
+-   R² Score\
+-   Mean Absolute Error (MAE)\
+-   Mean Squared Error (MSE)\
+-   Accuracy (if classification is used)
+
+## 🔑 Key Insights
+
+-   Study hours strongly affect performance\
+-   Attendance plays a significant role\
+-   Ensemble models improve prediction accuracy
+
+## 🚀 How to Run
+
+1.  Install dependencies: pip install pandas numpy matplotlib seaborn
+    scikit-learn\
+2.  Open the notebook: jupyter notebook student_analysispari.ipynb\
+3.  Run all cells
+
+## 📌 Future Enhancements
+
+-   Add deep learning models\
+-   Build dashboard\
+-   Deploy as web app
